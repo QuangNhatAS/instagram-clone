@@ -1,0 +1,46 @@
+.sidebar{
+    max-width: 500px;
+  }
+  .sidebar .container img{
+    border-radius: 50%;
+  } 
+  
+  .sidebar .info-container{
+    height: 66px;
+    display: flex;
+    align-items: center;
+  }
+  .sidebar .info-container .info{
+    margin-left: 15px;
+  }
+  .sidebar .info-container .info .nick-name{
+    font-weight: 600;
+  }
+  .sidebar .info-container .info .name{
+    color: rgba(var(--f52,142,142,142),1);
+  }
+  .sidebar .suggestion-container .header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  .sidebar .suggestion-container .header .title{
+    text-transform: capitalize;
+    font-weight: 900;
+    color: rgba(var(--f52,142,142,142),1);
+  }
+  .sidebar .suggestion-container .follower .follower-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sidebar .suggestion-container .follower .info-container{
+    display: flex;
+    align-items: center;
+  }
+  .sidebar .suggestion-container .follower .follower-item button{
+    border: none;
+    background: transparent;
+    color: rgba(var(--d69,0,149,246),1);
+  }
